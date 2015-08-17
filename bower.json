@@ -1,0 +1,7 @@
+{
+  "name": "personal-site",
+  "private": true,
+  "dependencies": {
+    "kiki": "latest"
+  }
+}
