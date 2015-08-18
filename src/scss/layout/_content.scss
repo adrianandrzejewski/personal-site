@@ -1,0 +1,43 @@
+/*----------------------------------------*\
+    #CONTENT
+\*----------------------------------------*/
+
+.content .title{
+    margin: 0;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+.content .title1{
+    margin: 10px auto;
+}
+
+.owl-theme p{
+    padding: 0;
+    margin: 0;
+}
+.owl-theme .owl-controls .owl-buttons div {
+    width: 35px;
+    height: 35px;
+    line-height: 33px;
+    text-align: center;
+    padding: 0;
+    display: inline-block;
+    zoom: 1;
+    margin: 0 10px 0 0;
+    border-radius: 50%;
+    opacity: 1;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 16px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.owl-theme .owl-controls .owl-buttons div:hover{
+}
+.owl-theme .owl-controls {
+    margin-top: 20px;
+    text-align: left;
+}

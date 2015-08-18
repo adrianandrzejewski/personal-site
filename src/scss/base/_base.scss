@@ -8,6 +8,17 @@
   box-sizing: border-box;
 }
 
+*{
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+body {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 auto;
+}
+
 img {
   vertical-align: middle;
 }
@@ -16,3 +27,164 @@ textarea {
   resize: vertical;
 }
 
+.ng-hide {
+  display: none!important;
+}
+
+ul ul, ol ol, ul ol, ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+b, strong, em, small, code {
+  line-height: 1;
+}
+table{
+  margin: 0;
+  padding: 0;
+}
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+sub {
+  top: 0.4em;
+}
+a{
+  text-decoration: none;
+  outline: none;
+}
+a:hover, a:visited, a:focus, a:active{
+  text-decoration: none;
+  outline: none;
+}
+.container {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.hover-animate{
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.text-right{
+  text-align: right;
+}
+.text-left{
+  text-align: left;
+}
+.text-center{
+  text-align: center;
+}
+.font-weight-m{
+  font-weight: 500;
+}
+.social ul{
+  padding: 0;
+  margin: 12px 0;
+}
+.social li{
+  display: inline-block;
+  list-style: none;
+}
+.ukie-icons {
+  display: inline-block;
+  font-size: 16px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  margin: 0px 7px 7px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 1px;
+}
+.ukie-icons:first-child{
+  margin-left: 0px;
+}
+.ukie-icons:hover{
+}
+.btn{
+  border-style: solid;
+  border-width: 1px;
+  padding: 0px 20px;
+  line-height: 38px;
+  font-size: 16px;
+  border-radius: 50px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.width-td{
+  width: 100px;
+}
+.width-td1{
+  width: 150px;
+}
+.title-resume{
+  margin-bottom: 30px;
+}
+.title-contact{
+  margin-bottom: 30px;
+}
+.title-blog{
+  margin-bottom: 0px;
+}
+.btn:hover{
+}
+.btn-color{
+}
+.btn-color:hover{
+}
+.block-grey{
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  padding: 30px;
+}
+.block-grey table{
+  width: 100%;
+}
+.block-grey table td{
+  line-height: 16px;
+  padding-bottom: 18px;
+}
+.border-bottom{
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+.border-top{
+  border-top-width: 1px;
+  border-top-style: solid;
+}
+.border-left{
+  border-left-width: 1px;
+  border-left-style: solid;
+}
+.border-right{
+  border-right-width: 1px;
+  border-right-style: solid;
+}
+.padding-block{
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+#wraper{
+  border-width: 1px;
+  border-style: solid;
+  margin: 50px auto;
+  width: 1230px;
+}
+.scrollToTop {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  line-height: 40px;
+  text-align: center;
+  position: fixed;
+  bottom: 100px;
+  right: 0px;
+  display: none;
+}

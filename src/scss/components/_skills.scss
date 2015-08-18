@@ -1,0 +1,71 @@
+/*----------------------------------------*\
+    #CONTENT
+\*----------------------------------------*/
+
+.skills .title{
+    margin: 0;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+.skills .title-skills{
+    margin-bottom: 30px;
+}
+.skills .progress-bar-label{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.skills .progress-bar{
+    border-width: 1px;
+    border-style: solid;
+    line-height: 8px;
+    position: relative;
+    box-shadow: none;
+}
+.skills .progress{
+    height: 10px;
+    margin-bottom: 24px;
+    border-radius: 0;
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: none;
+    overflow: visible;
+}
+.skills .progress-bar span{
+    display: block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-weight: 300;
+    position: absolute;
+    top: -16px;
+    right: -20px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+}
+.skills .circle-progress-block{
+    text-align: center;
+    width: 160px;
+    display: inline-block;
+    margin-left: 25px;
+}
+.skills .circle-progress-block input{
+    font-size: 21px !important;
+    font-weight: 300 !important;
+    margin-top: 25px !important;
+    margin-left: -135px !important;
+    border-radius: 50%;
+    width: 110px !important;
+    height: 110px !important;
+}
+.skills .circle-progress{
+
+}
+.skills .circle-progress-label{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 24px;
+}

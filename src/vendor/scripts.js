@@ -49,7 +49,8 @@ $(document).ready(function(){
         var $div = $(this);
         var img = document.createElement('img');
         var img_name = $div.attr("data-img-name");
-        img.src = "./images/menu/" + img_name + ".gif?t=" + new Date().getTime();
+        img.src = "images/menu/" + img_name + ".gif?t=" + new Date().getTime();
+
 
         $(img).load(function(){
             $div.attr("src",img.src);
@@ -59,7 +60,7 @@ $(document).ready(function(){
 
         var $div = $(this);
         var img_name = $div.attr("data-img-name");
-        var src = "./images/menu/" + img_name + ".png";
+        var src = "images/menu/" + img_name + ".png";
         $div.attr("src",src);
 
     });

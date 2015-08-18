@@ -1,14 +1,21 @@
 /*----------------------------------------*\
     #Noke - SCSS starter kit
 \*----------------------------------------*/
-@import 'kiki-settings'; 
+// @import 'kiki-settings'; 
 
 // bower:scss
-@import "bower_components/kiki/dist/_kiki.scss";
+// @import "bower_components/kiki/dist/_kiki.scss";
 // endbower
 
 //normalize
-@import 'base/normalize';
+// @import 'base/normalize';
+
+//vendor
+@import 'vendor/font-awesome';
+@import 'vendor/bootstrap';
+@import 'vendor/animate'; 
+@import 'vendor/owl.carousel'; 
+@import 'vendor/owl.theme'; 
 
 //utils
 @import 'utils/variables';
@@ -21,12 +28,21 @@
 
 //layout
 @import 'layout/navigation';
-@import 'layout/header';
+@import 'layout/home-header';
 @import 'layout/footer';
+@import 'layout/home';
+@import 'layout/content';
+@import 'layout/contact';
+@import 'layout/respons';
 
 //components
 @import 'components/sprite'; 
-//pages
+@import 'components/skills'; 
+@import 'components/animation'; 
+@import 'components/info'; 
+
+//themes
+@import 'themes/color-blue'; 
 
 //shame
 @import 'shame';

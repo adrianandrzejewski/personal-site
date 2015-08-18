@@ -1,12 +1,14 @@
 (function () {
   'use strict';
+
   angular
     .module('personalSite.layout')
-    .directive('footer', Footer);
+    .directive('psFooter', psFooter);
 
-  function Footer() {
+  function psFooter() {
     return {
       restrict: 'E',
+      replace: true,
       templateUrl: 'app/layout/footer/footer.tpl.html',
       scope: {}
     };

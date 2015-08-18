@@ -1,0 +1,37 @@
+/*----------------------------------------*\
+    #HOME SECTION
+\*----------------------------------------*/
+.head{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+.head .title{
+  margin: 0;
+}
+.head .sub-title{
+  margin: 0;
+  font-weight: 300;
+}
+.head .logo-page{
+  margin-right: 30px;
+  float: left;
+}
+.head .btn-close{
+  width: 36px;
+  height: 36px;
+  margin-top: 16px;
+  margin-right: 16px;
+  background-image: url("../images/close.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  display: inline-block;
+  cursor: pointer;
+}
+.head .btn-close:hover{
+  -ms-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
