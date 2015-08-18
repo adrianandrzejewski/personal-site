@@ -174,68 +174,6 @@ $(document).ready(function(){
 
     });
 
-    /*
-     ----------------------------------------------------------------------
-     Animated Counter
-     ----------------------------------------------------------------------
-     */
-    $('.count').each(function () {
-        $(".total-numbers .sum").appear(function() {
-            var counter = $(this).html();
-            $(this).countTo({
-                from: 0,
-                to: counter,
-                speed: 2000,
-                refreshInterval: 60
-            });
-        });
-    });
-
-    /*
-     ----------------------------------------------------------------------
-     Style switcher
-     ----------------------------------------------------------------------
-     */
-
-    var style = ('#stylesheet-new');
-    $('.new-colour').on("click", function(el){
-        el.preventDefault();
-        var id = $(this).attr('href');
-
-        $.cookie("colour-scheme",id);
-
-        $(style).attr('href', 'css/colour-scheme/' + id + '.css');
-        $(style).attr('data-color', colour_scheme);
-        $.cookie("colour-skills",$(this).attr('data-color'));
-    });
-
-    $('.new-bg').on("click", function(el){
-        el.preventDefault();
-        var color = $(this).attr('data-bg');
-
-        $.cookie("colour-bg",color);
-
-        $(style).attr('data-bg', color);
-        $("body").css('background-color',color);
-    });
-
-    $('.style-open').on("click", function(el){
-        el.preventDefault();
-        $('.style-switcher').toggleClass('style-off');
-    });
-
-    var colour_scheme = $.cookie("colour-scheme");
-    var colour_bg = $.cookie("colour-bg");
-    if( colour_scheme != "" && colour_scheme != undefined ){
-        $(style).attr('href', 'css/colour-scheme/' + colour_scheme + '.css');
-        $(style).attr('data-color', colour_scheme);
-    } else{
-        $.cookie("colour-scheme","color-blue");
-    }
-    if ( colour_bg != "" && colour_bg != undefined ){
-        $("body").css('background-color',colour_bg);
-    }
-
 
 
 }); // End $(document).ready(function(){
