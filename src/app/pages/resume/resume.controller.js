@@ -5,9 +5,9 @@
 		.module('personalSite.resume')
 		.controller('ResumeController', ResumeController);
 
-	ResumeController.$inject = ['$q'];
+	ResumeController.$inject = ['EDUCATION'];
 
-	function ResumeController($q) {
-
+	function ResumeController(EDUCATION) {
+    var vm = this;
 	}
 })();

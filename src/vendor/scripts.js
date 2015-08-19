@@ -12,35 +12,6 @@ $(document).ready(function(){
 
     /*
      ----------------------------------------------------------------------
-     Preloader
-     ----------------------------------------------------------------------
-     */
-    $(".loader").delay(400).fadeOut();
-    $(".animationload").delay(400).fadeOut("fast");
-
-
-    /*
-     ----------------------------------------------------------------------
-     Scroll
-     ----------------------------------------------------------------------
-     */
-    //Check to see if the window is top if not then display button
-    $(window).scroll(function(){
-        if ($(this).scrollTop() > 400) {
-            $('.scrollToTop').fadeIn();
-        } else {
-            $('.scrollToTop').fadeOut();
-        }
-    });
-    //Click event to scroll to top
-    $('.scrollToTop').click(function(){
-        $('html, body').animate({scrollTop : 0},800);
-        return false;
-    });
-
-
-    /*
-     ----------------------------------------------------------------------
      Animated menu
      ----------------------------------------------------------------------
      */
@@ -83,22 +54,6 @@ $(document).ready(function(){
                 elem.addClass( animation + " visible" );
             }
         }
-    });
-
-
-    /*
-     ----------------------------------------------------------------------
-     Nice scroll
-     ----------------------------------------------------------------------
-     */
-    $("html").niceScroll({
-        cursorcolor: '#fff',
-        cursoropacitymin: '0',
-        cursoropacitymax: '1',
-        cursorwidth: '2px',
-        zindex: 999999,
-        horizrailenabled: false,
-        enablekeyboard: false
     });
 
     /*
@@ -147,33 +102,6 @@ $(document).ready(function(){
             });
         }
     });
-
-    /*
-     ----------------------------------------------------------------------
-     Sliders
-     ----------------------------------------------------------------------
-     */
-    $("#education-slider").owlCarousel({
-
-        navigation : true, // Show next and prev buttons
-        navigationText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
-        pagination: false,
-        slideSpeed : 300,
-        paginationSpeed : 400,
-        singleItem:true
-    });
-
-    $("#work-slider").owlCarousel({
-
-        navigation : true, // Show next and prev buttons
-        navigationText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
-        pagination: false,
-        slideSpeed : 300,
-        paginationSpeed : 400,
-        singleItem:true
-
-    });
-
 
 
 }); // End $(document).ready(function(){
