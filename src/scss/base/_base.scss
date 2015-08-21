@@ -90,7 +90,7 @@ a:hover, a:visited, a:focus, a:active{
   display: inline-block;
   list-style: none;
 }
-.ukie-icons {
+.icons { 
   display: inline-block;
   font-size: 16px;
   width: 36px;
@@ -102,10 +102,10 @@ a:hover, a:visited, a:focus, a:active{
   border-style: solid;
   border-width: 1px;
 }
-.ukie-icons:first-child{
+.icons:first-child{
   margin-left: 0px;
 }
-.ukie-icons:hover{
+.icons:hover{
 }
 .btn{
   border-style: solid;
